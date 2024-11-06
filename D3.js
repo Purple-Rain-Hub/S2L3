@@ -1,105 +1,105 @@
 const starWarsCharacters = [
   {
-    name: 'Luke Skywalker',
+    name: "Luke Skywalker",
     height: 172,
     mass: 277,
-    hair_color: 'blond',
-    skin_color: 'fair',
-    eye_color: 'blue',
-    birth_year: '19BBY',
-    gender: 'male',
+    hair_color: "blond",
+    skin_color: "fair",
+    eye_color: "blue",
+    birth_year: "19BBY",
+    gender: "male",
   },
   {
-    name: 'C-3PO',
+    name: "C-3PO",
     height: 167,
     mass: 75,
-    hair_color: 'n/a',
-    skin_color: 'gold',
-    eye_color: 'yellow',
-    birth_year: '112BBY',
-    gender: 'n/a',
+    hair_color: "n/a",
+    skin_color: "gold",
+    eye_color: "yellow",
+    birth_year: "112BBY",
+    gender: "n/a",
   },
   {
-    name: 'R2-D2',
+    name: "R2-D2",
     height: 96,
     mass: 32,
-    hair_color: 'n/a',
-    skin_color: 'white, blue',
-    eye_color: 'red',
-    birth_year: '33BBY',
-    gender: 'n/a',
+    hair_color: "n/a",
+    skin_color: "white, blue",
+    eye_color: "red",
+    birth_year: "33BBY",
+    gender: "n/a",
   },
   {
-    name: 'Darth Vader',
+    name: "Darth Vader",
     height: 202,
     mass: 136,
-    hair_color: 'none',
-    skin_color: 'white',
-    eye_color: 'yellow',
-    birth_year: '41.9BBY',
-    gender: 'male',
+    hair_color: "none",
+    skin_color: "white",
+    eye_color: "yellow",
+    birth_year: "41.9BBY",
+    gender: "male",
   },
   {
-    name: 'Leia Organa',
+    name: "Leia Organa",
     height: 150,
     mass: 49,
-    hair_color: 'brown',
-    skin_color: 'light',
-    eye_color: 'brown',
-    birth_year: '19BBY',
-    gender: 'female',
+    hair_color: "brown",
+    skin_color: "light",
+    eye_color: "brown",
+    birth_year: "19BBY",
+    gender: "female",
   },
   {
-    name: 'Owen Lars',
+    name: "Owen Lars",
     height: 178,
     mass: 120,
-    hair_color: 'brown, grey',
-    skin_color: 'light',
-    eye_color: 'blue',
-    birth_year: '52BBY',
-    gender: 'male',
+    hair_color: "brown, grey",
+    skin_color: "light",
+    eye_color: "blue",
+    birth_year: "52BBY",
+    gender: "male",
   },
   {
-    name: 'Beru Whitesun lars',
+    name: "Beru Whitesun lars",
     height: 165,
     mass: 75,
-    hair_color: 'brown',
-    skin_color: 'light',
-    eye_color: 'blue',
-    birth_year: '47BBY',
-    gender: 'female',
+    hair_color: "brown",
+    skin_color: "light",
+    eye_color: "blue",
+    birth_year: "47BBY",
+    gender: "female",
   },
   {
-    name: 'R5-D4',
+    name: "R5-D4",
     height: 97,
     mass: 32,
-    hair_color: 'n/a',
-    skin_color: 'white, red',
-    eye_color: 'red',
-    birth_year: 'unknown',
-    gender: 'n/a',
+    hair_color: "n/a",
+    skin_color: "white, red",
+    eye_color: "red",
+    birth_year: "unknown",
+    gender: "n/a",
   },
   {
-    name: 'Biggs Darklighter',
+    name: "Biggs Darklighter",
     height: 183,
     mass: 84,
-    hair_color: 'black',
-    skin_color: 'light',
-    eye_color: 'brown',
-    birth_year: '24BBY',
-    gender: 'male',
+    hair_color: "black",
+    skin_color: "light",
+    eye_color: "brown",
+    birth_year: "24BBY",
+    gender: "male",
   },
   {
-    name: 'Obi-Wan Kenobi',
+    name: "Obi-Wan Kenobi",
     height: 182,
     mass: 77,
-    hair_color: 'auburn, white',
-    skin_color: 'fair',
-    eye_color: 'blue-gray',
-    birth_year: '57BBY',
-    gender: 'male',
+    hair_color: "auburn, white",
+    skin_color: "fair",
+    eye_color: "blue-gray",
+    birth_year: "57BBY",
+    gender: "male",
   },
-]
+];
 
 //console.log(starWarsCharacters[1].name);
 
@@ -146,7 +146,7 @@ const eyeColor = {
   brown: [],
   red: [],
   "blue-gray": [],
-}
+};
 
 //console.log(eyeColor);
 
@@ -201,30 +201,30 @@ while (i < starWarsCharacters.length) {
 
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 */
-
-if (crewMass < 500){
+/*
+if (crewMass < 500) {
   console.log("Ship is under loaded")
 }
-else if (crewMass < 700){
+else if (crewMass < 700) {
   console.log("Ship is half loaded")
 }
-else if (crewMass < 900){
+else if (crewMass < 900) {
   console.log("Warning: Load is over 700")
 }
-else if (crewMass < 1000){
+else if (crewMass < 1000) {
   console.log("Critical Load: Over 900")
 }
-else if (crewMass > 1000){
+else if (crewMass > 1000) {
   console.log("DANGER! OVERLOAD ALERT: escape from ship now!")
 }
-
+*/
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
 */
 
-for (let i = 0; i < starWarsCharacters.length; i++){
+for (let i = 0; i < starWarsCharacters.length; i++) {
   if (starWarsCharacters[i].gender === "n/a")
-    starWarsCharacters[i].gender = "robot"
+    starWarsCharacters[i].gender = "robot";
 }
 
 //console.log(starWarsCharacters);
@@ -234,6 +234,39 @@ for (let i = 0; i < starWarsCharacters.length; i++){
   Una volta fatto crea un console.log per controllare la proprietà length di "charactersNames" prima e dopo l'operazione.
 */
 
+//console.log(charactersNames.length);
+
+for (let i = 0; i < charactersNames.length; i++) {
+  for (let x = 0; x < femaleCharacters.length; x++) {
+    if (femaleCharacters[x].name == charactersNames[i])
+      charactersNames.splice(i, 1);
+  }
+}
+
+//console.log(charactersNames.length);
+
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
+
+let random =
+  starWarsCharacters[Math.floor(Math.random() * starWarsCharacters.length)];
+console.log(
+  "WANTED ",
+  random.name,
+  ", born in the year",
+  random.birth_year,
+  ", this terrorist is wanted for treason against the Republic, is a",
+  random.gender,
+  "tall",
+  random.height,
+  "cm and weighs approxmately",
+  random.mass,
+  "kg, He has",
+  random.hair_color,
+  "hair,",
+  random.eye_color,
+  "eyes and",
+  random.skin_color,
+  "skin color, anyone with information should inform the authorities."
+);
